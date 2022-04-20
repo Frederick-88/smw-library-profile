@@ -4,25 +4,7 @@
     <!-- Desktop Navbar -->
     <!-- -------------- -->
     <v-app-bar v-if="!isMobile" app color="primary" dark>
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+      <h2 class="mr-5">SMW Library</h2>
 
       <v-btn>next</v-btn>
       <v-btn>next</v-btn>
@@ -50,7 +32,7 @@
       <v-app-bar color="deep-purple" dark>
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-        <v-toolbar-title>Title</v-toolbar-title>
+        <v-toolbar-title>SMW Library</v-toolbar-title>
       </v-app-bar>
 
       <v-navigation-drawer v-model="drawer" absolute temporary>
