@@ -11,11 +11,12 @@
 
 - Vue-Firebase Setup = https://www.youtube.com/watch?v=tkvQVt2sX7Y
 - Firestore - Vuex Binding = https://stackoverflow.com/questions/59722463/how-to-load-firestore-collection-to-vuex-state
+- Load Firestore Collection Data = https://stackoverflow.com/questions/67890973/get-items-from-a-firebase-collection-and-use-them-as-a-list-in-vue
 
 ### Todo :
 
 1. Build Firebase ( Backend )
-2. Build Frontend
+2. Build Frontend + Notifications
 3. Deployment + Security (env)
 
 ### Instructions :
