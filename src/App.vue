@@ -8,15 +8,12 @@
 </template>
 
 <script>
-import Navbar from "@/components/base/Navbar.vue";
+import Navbar from "@/components/Base/Navbar.vue";
 
 export default {
   name: "App",
   components: {
     Navbar,
   },
-  data: () => ({
-    //
-  }),
 };
 </script>
