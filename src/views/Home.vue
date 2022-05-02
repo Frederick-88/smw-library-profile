@@ -1,15 +1,19 @@
 <template>
-  <hello-world />
+  <v-main>
+    <home-banner />
+    <home-facilities />
+  </v-main>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import HomeBanner from "@/components/Home/HomeBanner.vue";
+import HomeFacilities from "@/components/Home/HomeFacilities.vue";
 
-  export default {
-    name: 'Home',
-
-    components: {
-      HelloWorld,
-    },
-  }
+export default {
+  name: "Home",
+  components: {
+    HomeBanner,
+    HomeFacilities,
+  },
+};
 </script>
