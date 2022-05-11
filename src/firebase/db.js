@@ -104,11 +104,11 @@ const fbCreatePartner = (data) => {
   });
 };
 
-const fbUpdatePartner = (partnerId, data) => {
-  partnersCollection.doc(partnerId).update({
-    logo_url: data.logo_url,
-  });
-};
+// const fbUpdatePartner = (partnerId, data) => {
+//   partnersCollection.doc(partnerId).update({
+//     logo_url: data.logo_url,
+//   });
+// };
 
 const fbDeletePartner = (partnerId) => {
   partnersCollection.doc(partnerId).delete();
@@ -121,7 +121,7 @@ const libraryDetailsCollection = database.collection("library-details");
 
 const fbCreateLibraryDetail = (data) => {
   libraryDetailsCollection.add({
-    organization_structure_image_url: data.organization_structure_image_url,
+    organization_image: data.organization_image,
     contact_details: {
       whatsapp_number: data.whatsapp_number,
       email: data.email,
@@ -132,7 +132,7 @@ const fbCreateLibraryDetail = (data) => {
 
 const fbUpdateLibraryDetail = (libraryDetailId, data) => {
   libraryDetailsCollection.doc(libraryDetailId).update({
-    organization_structure_image_url: data.organization_structure_image_url,
+    organization_image: data.organization_image,
     contact_details: {
       whatsapp_number: data.whatsapp_number,
       email: data.email,
@@ -158,7 +158,7 @@ export {
   fbUpdateBookCollection,
   fbDeleteBookCollection,
   fbCreatePartner,
-  fbUpdatePartner,
+  // fbUpdatePartner,
   fbDeletePartner,
   fbCreateLibraryDetail,
   fbUpdateLibraryDetail,
