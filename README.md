@@ -22,9 +22,12 @@
 ### Instructions :
 
 1. Library SMA Profile Page, Management System itu link ke url -> elibrary.uvers.ac.id
+
 2. untuk Profile Page, ada Admin site yang bisa diakses oleh pustakawan
+
 3. Page Contents :
-   a. home page / beranda :
+
+a. home page / beranda :
 
 - first page / video pengenalan
 - facilities :
@@ -57,7 +60,7 @@ f. Ebook SMW -> link "indonesiamembaca.com"
 
 ---
 
-Firebase - Vue
+Firebase - Vue - Admin Site
 Collections/Tables :
 
 1. Facilities
