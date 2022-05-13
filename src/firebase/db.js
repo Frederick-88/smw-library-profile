@@ -46,7 +46,7 @@ const fbDeleteFacility = (facilityId) => {
 // ------------------------
 const libraryProgramsCollection = database.collection("library-programs");
 
-const fbCreateLibraryProgram = (data) => {
+const fbCreateProgram = (data) => {
   libraryProgramsCollection.add({
     title: data.title,
     description: data.description,
@@ -56,7 +56,7 @@ const fbCreateLibraryProgram = (data) => {
   });
 };
 
-const fbUpdateLibraryProgram = (programId, data) => {
+const fbUpdateProgram = (programId, data) => {
   libraryProgramsCollection.doc(programId).update({
     title: data.title,
     description: data.description,
@@ -66,7 +66,7 @@ const fbUpdateLibraryProgram = (programId, data) => {
   });
 };
 
-const fbDeleteLibraryProgram = (programId) => {
+const fbDeleteProgram = (programId) => {
   libraryProgramsCollection.doc(programId).delete();
 };
 
@@ -134,9 +134,9 @@ const fbUpdateLibraryDetail = (libraryDetailId, data) => {
   libraryDetailsCollection.doc(libraryDetailId).update({
     organization_image: data.organization_image,
     contact_details: {
-      whatsapp_number: data.whatsapp_number,
-      email: data.email,
-      phone_number: data.phone_number,
+      whatsapp_number: data.contact_details.whatsapp_number,
+      email: data.contact_details.email,
+      phone_number: data.contact_details.phone_number,
     },
   });
 };
@@ -151,9 +151,9 @@ export {
   fbCreateFacility,
   fbUpdateFacility,
   fbDeleteFacility,
-  fbCreateLibraryProgram,
-  fbUpdateLibraryProgram,
-  fbDeleteLibraryProgram,
+  fbCreateProgram,
+  fbUpdateProgram,
+  fbDeleteProgram,
   fbCreateBookCollection,
   fbUpdateBookCollection,
   fbDeleteBookCollection,
