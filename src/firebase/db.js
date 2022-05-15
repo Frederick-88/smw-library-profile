@@ -119,16 +119,16 @@ const fbDeletePartner = (partnerId) => {
 // -----------------------
 const libraryDetailsCollection = database.collection("library-details");
 
-const fbCreateLibraryDetail = (data) => {
-  libraryDetailsCollection.add({
-    organization_image: data.organization_image,
-    contact_details: {
-      whatsapp_number: data.whatsapp_number,
-      email: data.email,
-      phone_number: data.phone_number,
-    },
-  });
-};
+// const fbCreateLibraryDetail = (data) => {
+//   libraryDetailsCollection.add({
+//     organization_image: data.organization_image,
+//     contact_details: {
+//       whatsapp_number: data.whatsapp_number,
+//       email: data.email,
+//       phone_number: data.phone_number,
+//     },
+//   });
+// };
 
 const fbUpdateLibraryDetail = (libraryDetailId, data) => {
   libraryDetailsCollection.doc(libraryDetailId).update({
@@ -141,9 +141,9 @@ const fbUpdateLibraryDetail = (libraryDetailId, data) => {
   });
 };
 
-const fbDeleteLibraryDetail = (libraryDetailId) => {
-  libraryDetailsCollection.doc(libraryDetailId).delete();
-};
+// const fbDeleteLibraryDetail = (libraryDetailId) => {
+//   libraryDetailsCollection.doc(libraryDetailId).delete();
+// };
 
 export {
   database,
@@ -160,7 +160,7 @@ export {
   fbCreatePartner,
   // fbUpdatePartner,
   fbDeletePartner,
-  fbCreateLibraryDetail,
+  // fbCreateLibraryDetail,
   fbUpdateLibraryDetail,
-  fbDeleteLibraryDetail,
+  // fbDeleteLibraryDetail,
 };
