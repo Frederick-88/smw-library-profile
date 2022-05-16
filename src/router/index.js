@@ -1,15 +1,41 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/homepage/Home.vue";
+
+import Home from "@/views/homepage/Home.vue";
+import Profile from "@/views/homepage/Profile.vue";
+import FeedbackBox from "@/views/homepage/FeedbackBox.vue";
+import ContactUs from "@/views/homepage/ContactUs.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
+  // -----
+  // Home
+  // -----
   {
     path: "/",
     name: "Home",
     component: Home,
   },
+  {
+    path: "/profil",
+    name: "Profile",
+    component: Profile,
+  },
+  {
+    path: "/kotak-saran",
+    name: "FeedbackBox",
+    component: FeedbackBox,
+  },
+  {
+    path: "/hubungi-kami",
+    name: "ContactUs",
+    component: ContactUs,
+  },
+
+  // -----
+  // Admin
+  // -----
   {
     path: "/admin/login",
     name: "AdminLogin",
