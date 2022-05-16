@@ -14,6 +14,10 @@
 import Navbar from "@/components/base/Navbar.vue";
 import Footer from "@/components/base/Footer.vue";
 
+// vue-slick-carousel imports
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
 export default {
   name: "App",
   components: {
@@ -26,6 +30,11 @@ export default {
 <style lang="scss">
 * {
   font-family: "Montserrat", sans-serif !important;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 .v-application {
@@ -49,20 +58,18 @@ export default {
     ul {
       display: flex;
       justify-content: center;
-      padding-left: 0;
       list-style: none;
-      left: 0;
       margin: 0;
+      padding: 0;
       position: absolute;
       top: 50%;
+      left: 0;
       transform: translateY(-50%);
       width: 100%;
     }
 
     li {
       transform: rotate(45deg);
-      font-size: 14px;
-      padding: 2px;
       display: inline-block;
     }
   }
