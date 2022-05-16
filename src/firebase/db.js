@@ -133,6 +133,7 @@ const libraryDetailsCollection = database.collection("library-details");
 const fbUpdateLibraryDetail = (libraryDetailId, data) => {
   libraryDetailsCollection.doc(libraryDetailId).update({
     organization_image: data.organization_image,
+    feedback_link: data.feedback_link,
     contact_details: {
       whatsapp_number: data.contact_details.whatsapp_number,
       email: data.contact_details.email,
