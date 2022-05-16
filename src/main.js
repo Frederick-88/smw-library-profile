@@ -6,6 +6,7 @@ import vuetify from "./plugins/vuetify";
 import { firestorePlugin } from "vuefire";
 import Toast from "vue-toastification";
 import "vue-toastification/dist/index.css";
+import VueSlickCarousel from "vue-slick-carousel";
 
 const options = {
   position: "top-center",
@@ -16,8 +17,10 @@ const options = {
 };
 
 Vue.use(Toast, options);
-
 Vue.use(firestorePlugin); // defined so we can use 'firestore: {}' in a vue component.
+
+Vue.component("VueSlickCarousel", VueSlickCarousel);
+
 Vue.config.productionTip = false;
 
 new Vue({
