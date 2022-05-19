@@ -2,10 +2,10 @@ import firebase from "firebase";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB7UCEHCfpfJTbCiI71184Df5_P9cgiqc8",
-  authDomain: "smw-library.firebaseapp.com",
-  projectId: "smw-library",
-  storageBucket: "smw-library.appspot.com",
+  apiKey: process.env.VUE_APP_FB_API_KEY,
+  authDomain: process.env.VUE_APP_FB_AUTH_DOMAIN,
+  projectId: process.env.VUE_APP_FB_PROJECT_ID,
+  storageBucket: process.env.VUE_APP_FB_STORAGE_BUCKET,
   messagingSenderId: "504170551315",
   appId: "1:504170551315:web:6cfb555bced717a42647e6",
   measurementId: "G-VS8E27JYRZ",
