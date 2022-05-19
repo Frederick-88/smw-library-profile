@@ -9,7 +9,7 @@ module.exports = {
       args[0].title = "SMA Maitreyawira Library";
       args[0].meta = {
         description:
-          "SMA Maitreyawira library website, a library based on Batam, Indonesia. Has dozen thousands of students across Batam city.",
+          "SMA Maitreyawira official library website. A library based on Batam, Indonesia. Has thousands of students across Batam city.",
         keywords:
           "sma maitreyawira, sma maitreyawira library, batam library, library, perpustakaan, perpustakaan batam, perpustakaan sma maitreyawira, sma maitreya perpustakaan, sma maitreyawira perpustakaan, perpustakaan indonesia",
       };
