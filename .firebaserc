@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "smw-library"
+  },
+  "targets": {
+    "smw-library": {
+      "hosting": {
+        "smw-library": [
+          "smw-library"
+        ],
+        "sma-maitreyawira-library": [
+          "sma-maitreyawira-library"
+        ]
+      }
+    }
+  }
+}
