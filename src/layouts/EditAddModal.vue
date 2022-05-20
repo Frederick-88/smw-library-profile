@@ -64,7 +64,6 @@ export default {
   methods: {
     submit() {
       this.$emit("submit");
-      this.$emit("close");
     },
     closeModal() {
       if (!this.isLoading) this.$emit("close");
@@ -81,6 +80,7 @@ export default {
 
   .modal__image-container {
     margin-right: 10px;
+    margin-bottom: 5px;
     position: relative;
     width: 100px;
     height: 100px;
