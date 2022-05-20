@@ -36,6 +36,7 @@ export default {
     padding: 3px;
     border: 2px solid gold;
     margin-right: 10px;
+    margin-bottom: 5px;
     object-fit: contain;
 
     &:last-of-type {
