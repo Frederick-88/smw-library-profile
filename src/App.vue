@@ -52,6 +52,12 @@ body {
 }
 
 .v-application {
+  [class*="text-"] {
+    // https://stackoverflow.com/questions/45598884/change-default-font-in-vuetify
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 400; // update the default font-weight 500 on "text-subtitle-1" classname and etc.
+  }
+
   font-family: "Montserrat", sans-serif !important;
 
   .admin-facilities,
