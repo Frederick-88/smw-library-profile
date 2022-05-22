@@ -9,7 +9,10 @@ const adminAuthMixins = {
   },
   methods: {
     checkAdminAuth() {
-      if (!this.adminToken) this.$router.push({ path: "/admin/login" });
+      if (!this.adminToken) {
+        this.$toast.warning("Please login first.");
+        this.$router.push({ path: "/admin/login" });
+      }
       return;
     },
   },
