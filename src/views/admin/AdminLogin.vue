@@ -43,11 +43,11 @@
         </v-text-field>
       </div>
 
-      <div class="footer-button d-flex justify-space-between">
-        <v-btn color="yellow accent-4" class="mr-4 col-5" @click="submitForm">
+      <div class="d-flex justify-space-between">
+        <v-btn color="yellow accent-4" class="col-5" @click="submitForm">
           Submit
         </v-btn>
-        <v-btn class="mr-4 col-5" @click="resetForm"> Reset </v-btn>
+        <v-btn class="col-5" @click="resetForm"> Reset </v-btn>
       </div>
     </div>
   </div>
