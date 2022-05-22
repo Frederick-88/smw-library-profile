@@ -65,7 +65,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 .home-banner {
-  height: 80vh;
+  height: 85vh;
   background-size: cover;
   background-position: center;
 
