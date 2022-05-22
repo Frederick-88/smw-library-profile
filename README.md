@@ -1,5 +1,7 @@
 ## smw-library-profile
 
+Live on https://sma-maitreyawira-library.web.app/
+
 ### Tech Used :
 
 - Firebase
@@ -50,11 +52,13 @@
 
 - steps to deploy multiple firebase sites :
 
-1. init on https://dev.to/jesusrmendez/how-to-deploy-vue-js-firebase-1iic
+1. init on https://dev.to/jesusrmendez/how-to-deploy-vue-js-firebase-1iic -> this is enough for deploy single site
 2. add another site in firebase console
 3. https://stackoverflow.com/questions/52170023/firebase-hosting-deploy-to-other-site use the target apply first
 4. dont need to change .firebaserc, only change to firebase.json following the settings we have here, then if .firebaserc doesnt change and cannot deploy, then change it and deploy.
 5. it will work alr.
+
+- Firebase Firestore Production Mode vs Development Mode in case sometime the DB cannot write and read anymore = https://stackoverflow.com/questions/62615171/how-do-i-turn-my-firebase-firestore-project-from-test-mode-into-production-mode
 
 ### Instructions :
 
