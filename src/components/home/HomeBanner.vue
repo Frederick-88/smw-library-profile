@@ -17,10 +17,12 @@
       </div>
 
       <p class="banner-subtitle white--text">
-        Selamat datang di website perpustakaan SMA Maitreyawira. Temukan
-        berbagai macam buku yang kamu perlukan dan sukai. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Ut gravida, quam vitae est Sed non
-        eros elementum nulla sodales ullamcorper.
+        Selamat datang di website perpustakaan SMA Maitreyawira. Perpustakaan
+        SMA Maitreyawira merupakan suatu bagian di bawah naungan Yayasan
+        Pancaran Maitri yang bertujuan memaksimalkan dan mengoptimalkan kinerja
+        perpustakaan untuk menjadi perpustakaan sekolah yang mampu mendukung
+        visi dan misi sekolah secara umum serta sumber belajar warga sekolah
+        guna mendukung kegiatan belajar mengajar di sekolah.
       </p>
 
       <div class="banner__cta-button d-flex flex-column align-center">
