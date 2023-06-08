@@ -91,7 +91,7 @@ d. Contact Us
 
 e. E-Library -> link ke url slim
 
-f. Ebook SMW -> link "indonesiamembaca.com"
+f. Ebook SMW -> link "https://gln.kemdikbud.go.id/glnsite/gerakan-indonesia-membaca/" (now closed already)
 
 4. Personal Note :
    a. when done, can contact pak Syafrizal for listing to playstore
