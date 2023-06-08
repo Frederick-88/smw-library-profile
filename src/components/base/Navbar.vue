@@ -156,13 +156,14 @@ export default {
           link: "http://elibrary.uvers.ac.id/",
           key: "e-library",
           name: "E-Library",
-        },
-        {
-          link: "https://gln.kemdikbud.go.id/glnsite/gerakan-indonesia-membaca/",
-          key: "ebook",
-          name: "Ebook SMW",
           isLast: this.isNotDesktop,
         },
+        // {
+        //   link: "https://gln.kemdikbud.go.id/glnsite/gerakan-indonesia-membaca/",
+        //   key: "ebook",
+        //   name: "Ebook SMW",
+        //   isLast: this.isNotDesktop,
+        // },
         {
           link: "/admin/login",
           key: "admin",
