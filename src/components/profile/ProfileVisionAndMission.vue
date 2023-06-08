@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-vision-and-mission mt-2 mt-sm-5 mt-md-15">
+  <div class="profile-vision-and-mission mt-2 mt-sm-5">
     <v-container class="profile-vision-and-mission__container">
       <v-row class="vision">
         <v-col class="vision-pic column pa-0 pa-md-3" cols="12" md="6">
@@ -11,14 +11,10 @@
             <p
               class="px-0 px-md-8 vision-description text--secondary text-subtitle-2 text-sm-subtitle-1"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              commodo quis imperdiet massa tincidunt nunc. Ut morbi tincidunt
-              augue interdum velit euismod in. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Mauris commodo quis imperdiet massa
-              tincidunt nunc. Ut morbi tincidunt augue interdum velit euismod
-              in.
+              Terwujudnya perpustakaan sekolah sebagai media pengembangan minat
+              baca dan kegemaran membaca serta pusat layanan informasi bagi
+              siswa maupun warga sekolah untuk mewujudkan pendidikan cinta kasih
+              alam.
             </p>
           </div>
         </v-col>
@@ -30,14 +26,29 @@
             <p
               class="px-0 px-md-8 mission-description text--secondary mb-0 text-subtitle-2 text-sm-subtitle-1"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              commodo quis imperdiet massa tincidunt nunc. Ut morbi tincidunt
-              augue interdum velit euismod in. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Mauris commodo quis imperdiet massa
-              tincidunt nunc. Ut morbi tincidunt augue interdum velit euismod
-              in.
+              <span class="mb-4">
+                1. Menyediakan berbagai koleksi bacaan untuk mengembangkan
+                pengetahuan siswa.
+              </span>
+              <br />
+              <span class="mb-4">
+                2. Menjadikan perpustakaan sebagai jantungnya pendidikan
+                sekolah.
+              </span>
+              <br />
+              <span class="mb-4">
+                3. Menjadikan perpustakaan sekolah sebagai tempat belajar yang
+                nyaman dan menyenangkan.
+              </span>
+              <br />
+              <span class="mb-4">
+                4. Mengembangkan layanan informasi pustaka berbasis teknologi
+                informasi komunikasi (TIK).
+              </span>
+              <br />
+              <span>
+                5. Menumbuhkankembangkan Gerakan Literasi Sekolah (GLS)
+              </span>
             </p>
           </div>
         </v-col>

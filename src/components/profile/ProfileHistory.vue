@@ -8,25 +8,35 @@
       <p
         class="history-description white--text mt-8 mb-0 text-subtitle-2 text-sm-subtitle-1"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis
-        imperdiet massa tincidunt nunc. Ut morbi tincidunt augue interdum velit
-        euismod in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-        commodo quis imperdiet massa tincidunt nunc. Ut morbi tincidunt augue
-        interdum velit euismod in.
+        Perpustakaan SMA Maitreyawira merupakan pembaharuan dari perpustakaan SD
+        dan SMP Maitreyawira, pada tahun 2015 berdirilah perpustakaan SMA
+        Maitreyawira dengan berbagai koleksi buku. Perpustakaan SMA Maitreyawira
+        berdiri karena kebutuhan para civitas akademik dalam menunjang proses
+        pembelajaran sehari-hari. Perpustakaan SMA Maitreyawira merupakan suatu
+        bagian di bawah naungan Yayasan Pancaran Maitri. Perpustakaan merupakan
+        suatu bagian yang berdiri sendiri yang bertujuan utama yaitu membantu
+        dalam proses pembelajaran. Perpustakaan yang baik merupakan salah satu
+        sumber belajar di sekolah. Oleh karena itu, perlunya seluruh peserta
+        didik dan tenaga kependidikan dapat kesempatan untuk memperluas
+        pengetahuan dengan membaca buku pustaka yang diperlukan. Pada sisi lain,
+        perpustakaan yang baik dan lengkap dapat menunjang proses belajar
+        mengajar di sekolah, khususnya dapat memotivasi kemandirian belajar
+        siswa dan gemar membaca sesuai dengan kurikulum yang berlaku.
       </p>
 
       <p
         class="history-description white--text mt-4 mb-0 text-subtitle-2 text-sm-subtitle-1"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis
-        imperdiet massa tincidunt nunc. Ut morbi tincidunt augue interdum velit
-        euismod in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-        commodo quis imperdiet massa tincidunt nunc. Ut morbi tincidunt augue
-        interdum velit euismod in.
+        Secara khusus fungsi perpustakaan sebagai sumber penyedia informasi dan
+        pustaka sesuai kurikulum pendidikan SMA perlu sekali di tingkatkan
+        sarana dan prasarana sesuai kemampuan sekolah. Sedangkan minat baca anak
+        tidak mungkin meningkat positif apabila bahan pustaka kurang lengkap dan
+        kurang menarik bagi anak. Untuk itu perpustakaan harus menyediakan bahan
+        yang seirama dengan bakat, minat dan kegemaran anak. Sehingga anak-anak
+        dan guru mencintai perpustakaan dan merasa butuh, karena koleksinya
+        sangat variatif dan menantang. Mengingat pentingnya maksud dan fungsi
+        perpustakaan sekolah itu perlulah disusun program yang jelas demi
+        pengelolaan perpustakaan yang profesional.
       </p>
     </v-container>
   </div>

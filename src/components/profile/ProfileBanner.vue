@@ -12,16 +12,6 @@
         </li>
       </ul>
     </div>
-
-    <p class="text--secondary mt-7 mt-sm-12 text-subtitle-2 text-sm-subtitle-1">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Mauris commodo quis
-      imperdiet massa tincidunt nunc. Ut morbi tincidunt augue interdum velit
-      euismod in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-      commodo quis imperdiet massa tincidunt nunc. Ut morbi tincidunt augue
-      interdum velit euismod in.
-    </p>
   </v-container>
 </template>
 
